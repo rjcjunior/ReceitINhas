@@ -3,15 +3,16 @@ html{
    height: 100%;
 }
 
-header{
-   width: 100%;
-   height: 100%;
-}
-
 body{
+   margin-top: 185px;
    width: 100%;
    height: 100%;
    font-family: 'Roboto', sans-serif;
+   background-color: rgb(245,245,245);
+}
+
+.linha::after{
+   clear: both;
 }
 
 .navbar-default{
@@ -26,8 +27,11 @@ body{
    }
 
    .navbar-default li{
-      margin-left: 25px;
+      margin-left: 15px;
       font-size: 20px;
+   }
+   body{
+      margin-top: 110px;
    }
 }
 
@@ -38,6 +42,104 @@ body{
 
 .navbar-default .navbar-nav>li>a:hover{
    color: rgba(54,45,104,0.85);
+   transition: 0.5s;
+}
+
+#destaques{
+   padding: 30px 0px;
+}
+
+#destaques h1{
+   text-align: center;
+   padding-top: 20px;
+   width: 100%;
+   color: rgba(54,45,104,0.85);
+}
+
+.bloco{
+   background-color: rgb(255,255,255);
+   border-radius: 5px;
+   padding-bottom: 30px;
+   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.05);
+}
+
+.destaque{
+   max-height: 400px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-radius: 5px;
+   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
+}
+
+.imagemFundo{
+   margin-top: 30px;
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background-image: url('brad.jpg');
+   background-size: cover;
+   background-position: center;
+   border-radius: 5px;
+   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+.imagemFundoMenor{
+   margin-top: 30px;
+   position: relative;
+   width: 100%;
+   height: 250px;
+   background-image: url('brad.jpg');
+   background-size: cover;
+   background-position: center;
+   border-radius: 5px;
+   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.1);
+}
+
+.textoFundo{
+   opacity: 0;
+   border-radius: 5px;
+   width: 100%;
+   height: 100%;
+   transition: 0.5s;
+   background-color: rgba(54,45,104,0.7);
+   position: absolute;
+}
+
+.textoFundo h2{
+   padding-top: 40px;
+   text-align: center;
+   color: #fff;
+}
+
+.textoFundo h3{
+   padding-top: 20px;
+   text-align: center;
+   color: #fff;
+}
+
+.imagemFundo .textoFundo p{
+   color: rgb(240,240,240);
+   padding: 0px 50px;
+   padding-top: 30px;
+   line-height: 30px;
+   font-size: 20px;
+}
+
+.imagemFundoMenor .textoFundo p{
+   font-size: 15px;
+   color: rgb(240,240,240);
+   padding: 0px 50px;
+   padding-top: 15px;
+   line-height: 20px;
+}
+
+.imagemFundo:hover .textoFundo{
+   opacity: 1;
+   transition: 0.5s;
+}
+
+.imagemFundoMenor:hover .textoFundo{
+   opacity: 1;
    transition: 0.5s;
 }
 
