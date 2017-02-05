@@ -262,3 +262,30 @@ body{
    margin: auto;
 }
 }
+
+/*Página Contato*/
+#contato h1{
+   text-align: center;
+   padding-top: 20px;
+   margin-bottom: 60px;
+   width: 100%;
+   color: rgba(54,45,104,0.85);
+}
+
+#contato h3{
+   padding-left: 50px;
+   font-size: 30px;
+   color: rgba(54,45,104,0.85);
+}
+
+#contato p{
+   padding-left: 50px;
+   font-size: 15px;
+   line-height: 30px;
+}
+
+
+
+#contato{
+   padding: 30px 0px;
+}
