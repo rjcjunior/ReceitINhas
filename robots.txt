@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /contato.html
+Allow: *
+
+
+Sitemap: http://www.receitINhas.com.br/sitemap.xml
