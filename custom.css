@@ -37,6 +37,7 @@ body{
 }
 
 .navbar-default .navbar-nav>li>a{
+   font-size: 19px;
    color: rgb(180,180,180);
    transition: 0.5s;
 }
@@ -289,25 +290,29 @@ body{
 }
 /*Página Index*/
 
-.introhome{
-         height: 660px;
-         width: 100%;
-         background-image: url("images/banner.jpg");
-         background-size: cover;
-         background-repeat: no-repeat;
-         background-attachment: fixed;
+.clear{
+   clear:both;
 }
-@media (max-width: 768px){
 .introhome{
-   background-size: 100% 100%;
-}
+   height: 660px;
+   width: 100%;
+   background-image: url("images/banner.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 /* Index  Sections*/
+.receitaindex .container{
+   width: 100%;
+   padding: 0px;
+}
+
 .receitaindex{
-   display:inline-block;
-   height: 500px;
+   background-color: #fff;
+   margin: 15px auto;
    text-align: center;
+   box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.2);
 }
 .receitasection1{
    padding-top: 100px;
@@ -315,49 +320,36 @@ body{
 .receitaimg{
    height: 500px;
    background-size: cover;
-
 }
 .receitaindex h2{
    color: rgba(54,45,104,0.85);
    font-size: 40px;
    text-align: center;
-   margin-bottom: 15px;
+   margin-bottom: 30px;
 }
 .receitaindex p{
    font-size: 20px;
+   margin: 0px 60px;
 }
 
 .receitaindex a {
-   background: #362d68;
    padding: 6px 12px;
    border-radius: 15px;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
-   color: #ffffff;
-   font-size: 23px;
+   border: solid;
+   border-width: thin;
+   border-color: #362d68;
+   text-shadow: rgba(0,0,0,0.4) 0 1px 0;
+   color: #362d68;
+   font-size: 20px;
    text-decoration: none;
+   transition: 0.5s;
    }
 .receitaindex a:hover {
-   border-top-color: #ffffff;
-   background: transparent;
-   color: #362d68;
+   background-color: #362d68;
+   color: #fff;
+   transition: 0.5s;
    }
 
 .botaoindex{
-      margin-top: 30px;
-   }
-
-@media (max-width: 768px){
-.receitaindex{
-   display:inline;
-}
-.receitasection1{
-   padding-top: 0px;
-}
-.receitaimg{
-   height: 200px;
-   background-size: cover;
-}
-.botaoindex{
-   margin-bottom: 10px;
-}
+   margin-top: 30px;
 }
