@@ -77,7 +77,6 @@ body{
    position: relative;
    width: 100%;
    height: 400px;
-   background-image: url('brad.jpg');
    background-size: cover;
    background-position: center;
    border-radius: 5px;
@@ -89,7 +88,6 @@ body{
    position: relative;
    width: 100%;
    height: 250px;
-   background-image: url('brad.jpg');
    background-size: cover;
    background-position: center;
    border-radius: 5px;
@@ -288,4 +286,78 @@ body{
 
 #contato{
    padding: 30px 0px;
+}
+/*Página Index*/
+
+.introhome{
+         height: 660px;
+         width: 100%;
+         background-image: url("images/banner.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+}
+@media (max-width: 768px){
+.introhome{
+   background-size: 100% 100%;
+}
+}
+
+/* Index  Sections*/
+.receitaindex{
+   display:inline-block;
+   height: 500px;
+   text-align: center;
+}
+.receitasection1{
+   padding-top: 100px;
+}
+.receitaimg{
+   height: 500px;
+   background-size: cover;
+
+}
+.receitaindex h2{
+   color: rgba(54,45,104,0.85);
+   font-size: 40px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+.receitaindex p{
+   font-size: 20px;
+}
+
+.receitaindex a {
+   background: #362d68;
+   padding: 6px 12px;
+   border-radius: 15px;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+   font-size: 23px;
+   text-decoration: none;
+   }
+.receitaindex a:hover {
+   border-top-color: #ffffff;
+   background: transparent;
+   color: #362d68;
+   }
+
+.botaoindex{
+      margin-top: 30px;
+   }
+
+@media (max-width: 768px){
+.receitaindex{
+   display:inline;
+}
+.receitasection1{
+   padding-top: 0px;
+}
+.receitaimg{
+   height: 200px;
+   background-size: cover;
+}
+.botaoindex{
+   margin-bottom: 10px;
+}
 }
