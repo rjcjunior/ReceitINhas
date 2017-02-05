@@ -175,8 +175,7 @@ body{
 
 /* Pagina sobre */
 .sobre{
-   padding-top: 20px;
-   padding-left: 100px;
+   padding-top: 30px;
    padding-bottom: 30px;
 }
 .sobre h2{
@@ -184,17 +183,20 @@ body{
    font-size: 50px;
    text-align: center;
    font-family: PT Sans Narrow;
+   margin-bottom: 15px;
 
 }
 .chef{
    text-align: center;
 }
 .chef1{
+   margin-top: 20px;
    width: 188px;
    margin-left: 350px;
 }
 
 .chef2{
+   margin-top: 20px;
    width: 188px;
    margin-left: 40px;
 }
@@ -242,7 +244,7 @@ body{
 
 @media (max-width: 768px){
 .sobre{
-   margin: 0px; 
+   margin: 0px;
    padding-right: 20px;
    padding-left:10px;
 }
@@ -260,4 +262,3 @@ body{
    margin: auto;
 }
 }
-
