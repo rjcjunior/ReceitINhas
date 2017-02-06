@@ -4,22 +4,27 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.google.com/schemas/sitemap/0.84
 http://www.google.com/schemas/sitemap/0.84/sitemap.xsd">
 <url>
-<loc>http://www.recetINhas.com.br/</loc>
+  <loc>http://www.recetINhas.com.br/index.html</loc>
+  <lastmod>2017-02-05T22:44:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+	<priority>1.0</priority>
 </url>
 <url>
-<loc>http://www.recetINhas.com.br/contato.html</loc>
-<lastmod>2017-02-05T22:44:53+00:00</lastmod>
+  <loc>http://www.recetINhas.com.br/contato.html</loc>
+  <lastmod>2017-02-05T22:44:53+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+	<priority>0.7</priority>
 </url>
 <url>
-<loc>http://www.recetINhas.com.br/index.html</loc>
-<lastmod>2017-02-05T22:44:51+00:00</lastmod>
+  <loc>http://www.recetINhas.com.br/receitas.html</loc>
+  <lastmod>2017-02-05T22:46:41+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+	<priority>0.8</priority>
 </url>
 <url>
-<loc>http://www.recetINhas.com.br/receitas.html</loc>
-<lastmod>2017-02-05T22:46:41+00:00</lastmod>
-</url>
-<url>
-<loc>http://www.recetINhas.com.br/sobre.html</loc>
-<lastmod>2017-02-05T22:44:52+00:00</lastmod>
-</url>
+  <loc>http://www.recetINhas.com.br/sobre.html</loc>
+  <lastmod>2017-02-05T22:44:52+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+ </url>
 </urlset>
