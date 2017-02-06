@@ -177,12 +177,11 @@ body{
    padding-top: 30px;
    padding-bottom: 30px;
 }
-.sobre h2{
+.sobre h1,h2{
    color: rgba(54,45,104,0.85);
-   font-size: 50px;
    text-align: center;
-   font-family: PT Sans Narrow;
-   margin-bottom: 15px;
+   margin: 30px 0px;
+   padding-top: 10px;
 
 }
 .chef{
@@ -200,9 +199,9 @@ body{
    margin-left: 40px;
 }
 .sobre p{
-   font-size: 20px;
+   font-size: 15px;
+   line-height: 30px;
    margin: auto 50px;
-   margin-top: 40px;
 }
 .equipe{
    text-align: center;
