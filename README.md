@@ -2,7 +2,7 @@
 Site de receitas desenvolvido para o treinamento da IN Junior
 
 ## Objetivo
-Desenvolver um site de um tema a sua escolha que esteja otimizado para mecanismos de busca (SEO)
+Desenvolver um site de um tema a sua escolha que esteja otimizado para mecanismos de busca (SEO).
 
 ## Créditos
  * Bootstrap;
